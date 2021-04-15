@@ -60,11 +60,11 @@ public class testSelectionSort {
 		int[] selSortArr = temp1.basicSelectionSort(arr);
 
 		int[] sortedArr = new int[5];
-		Sortedarr[0] = -7;
-		Sortedarr[1] = -4;
-		Sortedarr[2] = 4;
-		Sortedarr[3] = 8;
-		Sortedarr[4] = 11;
+		sortedArr[0] = -7;
+		sortedArr[1] = -4;
+		sortedArr[2] = 4;
+		sortedArr[3] = 8;
+		sortedArr[4] = 11;
 
 		assertEquals("should equal Sortedarr", selSortedArr, sortedArr)
 	}
@@ -81,11 +81,11 @@ public class testSelectionSort {
 		int[] selSortArr = temp1.basicSelectionSort(arr);
 
 		int[] sortedArr = new int[5];
-		Sortedarr[0] = -6;
-		Sortedarr[1] = 0;
-		Sortedarr[2] = 5;
-		Sortedarr[3] = 5;
-		Sortedarr[4] = 6;
+		sortedArr[0] = -6;
+		sortedArr[1] = 0;
+		sortedArr[2] = 5;
+		sortedArr[3] = 5;
+		sortedArr[4] = 6;
 
 		assertEquals("should equal Sortedarr", selSortedArr, sortedArr)
 	}
