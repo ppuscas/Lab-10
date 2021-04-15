@@ -25,14 +25,14 @@ public class testSelectionSort {
 		SelectionSort temp1 = new SelectionSort();
 		int[] selSortArr = temp1.basicSelectionSort(arr);
 
-		int[] Sortedarr = new int[5];
-		Sortedarr[0] = 2;
-		Sortedarr[1] = 7;
-		Sortedarr[2] = 8;
-		Sortedarr[3] = 9;
-		Sortedarr[4] = 10;
+		int[] sortedArr = new int[5];
+		sortedArr[0] = 2;
+		sortedArr[1] = 7;
+		sortedArr[2] = 8;
+		sortedArr[3] = 9;
+  	sortedArr[4] = 10;
 
-		assertEquals ("should equal Sortedarr", selSortArr, Sortedarr);
+		assertEquals ("should equal Sortedarr", selSortArr, sortedArr);
 	}
 
 	public void testNegative(){
@@ -46,13 +46,13 @@ public class testSelectionSort {
 		SelectionSort temp1 = new SelectionSort();
 		int[] selSortArr = temp1.basicSelectionSort(arr);
 
-		int[] Sortedarr = new int[5];
-		Sortedarr[0] = -9;
-		Sortedarr[1] = -5;
-		Sortedarr[2] = -4;
-		Sortedarr[3] = -2;
-		Sortedarr[4] = -1;
-		assertEquals ("should equal Sortedarr", selSortArr, Sortedarr);
+		int[] sortedArr = new int[5];
+		sortedArr[0] = -9;
+		sortedArr[1] = -5;
+		sortedArr[2] = -4;
+		sortedArr[3] = -2;
+		sortedArr[4] = -1;
+		assertEquals ("should equal Sortedarr", selSortArr, sortedArr);
 	}
 
 	public void testMixed(){
