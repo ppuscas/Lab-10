@@ -30,9 +30,9 @@ public class testSelectionSort {
 		sortedArr[1] = 7;
 		sortedArr[2] = 8;
 		sortedArr[3] = 9;
-  	sortedArr[4] = 10;
+		sortedArr[4] = 10;
 
-		assertEquals ("should equal Sortedarr", selSortArr, sortedArr);
+		assertArrayEquals ("should equal Sortedarr", selSortArr, sortedArr);
 	}
 
 	public void testNegative(){
@@ -52,7 +52,7 @@ public class testSelectionSort {
 		sortedArr[2] = -4;
 		sortedArr[3] = -2;
 		sortedArr[4] = -1;
-		assertEquals ("should equal Sortedarr", selSortArr, sortedArr);
+		assertArrayEquals ("should equal Sortedarr", selSortArr, sortedArr);
 	}
 
 	public void testMixed(){
@@ -73,7 +73,7 @@ public class testSelectionSort {
 		sortedArr[3] = 8;
 		sortedArr[4] = 11;
 
-		assertEquals("should equal Sortedarr", selSortedArr, sortedArr)
+		assertArrayEquals("should equal Sortedarr", selSortArr, sortedArr);
 	}
 
 	public void testDuplicates(){
@@ -94,7 +94,7 @@ public class testSelectionSort {
 		sortedArr[3] = 5;
 		sortedArr[4] = 6;
 
-		assertEquals("should equal Sortedarr", selSortedArr, sortedArr)
+		assertArrayEquals("should equal Sortedarr", selSortArr, sortedArr);
 	}
 
 }
